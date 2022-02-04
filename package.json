@@ -1,0 +1,32 @@
+{
+  "name": "trip_node_mongo_rest",
+  "version": "1.0.0",
+  "description": "Implementation of API REST for trip",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofese/trip_node_mongo_rest.git"
+  },
+  "author": "Joel Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jofese/trip_node_mongo_rest/issues"
+  },
+  "homepage": "https://github.com/jofese/trip_node_mongo_rest#readme",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.0"
+  }
+}
